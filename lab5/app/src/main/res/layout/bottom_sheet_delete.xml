@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/deletePrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Note"
+        android:textAppearance="?attr/textAppearanceSubtitle1"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel" />
+
+</LinearLayout>
